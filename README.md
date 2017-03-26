@@ -34,16 +34,12 @@ sudo apt-get install oracle-java8-installer
 The code can be invoked either programmatically or through the command line. The program can be invoked with the following command. It will display ```[['Barack Obama', ' was', ' born'], ['Barack Obama', ' was born in', ' Hawaii']]```
 ```
 git clone https://github.com/philipperemy/Stanford-OpenIE-Python.git
-cd Stanford-OpenIE-Python
-echo "Barack Obama was born in Hawaii." > samples.txt
-python main.py -f samples.txt
 ```
 
 ## Generate Graph
 
 ```
-echo "Barack Obama was born in Hawaii." > samples.txt
-python main.py -f samples.txt -g
+python main.py -f text.txt -g
 ```
 Will generate a [GraphViz DOT](http://www.graphviz.org/) graph and its related PNG file in `/tmp/openie/`
 
