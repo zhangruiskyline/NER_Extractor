@@ -23,14 +23,6 @@ First of all, make sure Java 1.8 is installed. Open a terminal and run this comm
 java -version
 ```
 
-If this is not the case and if your OS is Ubuntu, you can install it this way:
-
-```
-sudo add-apt-repository ppa:webupd8team/java
-sudo apt-get update
-sudo apt-get install oracle-java8-installer
-```
-
 The code can be invoked either programmatically or through the command line. The program can be invoked with the following command. It will display ```[['Barack Obama', ' was', ' born'], ['Barack Obama', ' was born in', ' Hawaii']]```
 ```
 git clone https://github.com/philipperemy/Stanford-OpenIE-Python.git

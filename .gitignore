@@ -93,4 +93,4 @@ ENV/
 *.pkl
 .DS_Store
 out/
-
+stanford-openie/lib/
